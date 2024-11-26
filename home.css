@@ -1,0 +1,260 @@
+header{
+    width:100%;
+    height:60px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 0px;
+    left: 45px;
+}
+#name{
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    margin-top: 0px;
+    left: 140px;
+}
+.button1{
+    width: 50px;
+    height:30px;
+    text-align: center; 
+    right:375px;
+    font-size:11px;
+    font-family: cursive;
+    position:absolute;
+    background-color:black;
+    color:rgb(240, 248, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:4px;
+}
+.button2{
+    width: 50px;
+    height:30px;
+    text-align: center;
+    right:300px;
+    font-size:11px;
+    font-family: cursive;
+    position:absolute;
+    background-color: black;
+    color:rgb(240, 248, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:4px;
+}
+.button3{
+    width: 50px;
+    height:30px;
+    text-align: center;
+    right:225px;
+    font-size:11px;
+    font-family: cursive;
+    position:absolute;
+    background-color: black;
+    color:rgb(240, 248, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:4px;
+}
+.button4{
+    width: 50px;
+    height:30px;
+    text-align: center;
+    right:145px;
+    font-size:11px;
+    font-family: cursive;
+    position:absolute;
+    background-color: black;
+    color:rgb(240, 248, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:4px;
+}
+.button5{
+    width: 80px;
+    height:30px;
+    text-align: center;
+    right:45px;
+    font-size:12px;
+    font-family: cursive;
+    position:absolute;
+    background-color: black;
+    color:rgb(240, 248, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:4px;
+}
+.button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover{
+    background-color:rgb(240, 248, 255);
+    color: black;
+    font-weight: bold;
+}
+#ban1{    
+    height:660px;
+    width: 1520px;
+    left: -8px;
+    border-color:#000000;
+    margin-bottom: -8px;
+    position: relative;
+}
+.shopnow{
+    height: 60px;
+    width: 240px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    top: 510px;
+    left: 970px;
+}
+.bottle{
+    height: 171px;
+    width: 171px;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    top: 472.4px;
+    left: 1167px;
+}
+#ban2{
+    width: 1520px;
+    height:620px;
+    left:-8px;
+    border:0;
+    position: relative;
+    background-color: #000000;
+}
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  } 
+.abc{
+    margin-top: 30px;
+    left: 570px;
+    position: absolute;
+    font-family: "Black Ops One", system-ui;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    color:#e4e1cc;
+}
+.abc:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left:-400px;
+    background: rgb(0, 140, 255);
+}
+.abc:after{
+    content:" ";
+    height: 2px;
+    width: 300px;
+    background: rgb(0, 140, 255);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -400px;
+}
+.pr1{
+    position:absolute;
+    width:300px;
+    height:400px;
+    background-color:  rgb(183, 179, 165);
+    z-index: 1;
+    left:180px;
+    top: 140px;
+    border-radius: 26px;
+    box-shadow: 0 0 20px rgb(183, 179, 165);
+}
+.pr2{
+    position:absolute;
+    width:300px;
+    height:400px;
+    background-color:  rgba(195, 209, 222, 0.906);
+    z-index: 1;
+    left:620px;
+    top: 140px;
+    border-radius: 26px;
+    box-shadow: 0 0 20px rgb(183, 179, 165);
+}
+.pr3{
+    position:absolute;
+    width:300px;
+    height:400px;
+    background-color:  rgb(195, 209, 222);
+    z-index: 1;
+    left:1060px;
+    top: 140px;
+    border-radius: 26px;
+    box-shadow: 0 0 20px rgb(183, 179, 165);
+}
+.obj1{
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    background-color: #fff;
+    z-index: 2;
+    left: 30px;
+    top: 30px;
+    border-radius:20px;
+    box-shadow: 0 0 100px rgba(4, 19, 86, 0.904) inset;
+}
+.gripper{
+    position: absolute;
+    width: 215px;
+    height: 250px;
+    background:transparent;
+    z-index: 3;
+    left: 40px;
+    top: 45px;
+    border-radius:20px;
+}
+.handgrip{
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    color: rgb(28, 62, 184);
+    font-family: "Black Ops One", system-ui;
+    font-size: 33px;
+    font-weight: 100;
+    z-index: 3;
+    text-decoration: none;
+    left: 20px;
+    top: 334px;
+    transform: scale(0.9, 1.3);
+}
+.obj2{
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    background-color: #fff;
+    z-index: 2;
+    left: 30px;
+    top: 30px;
+    border-radius: 20px;
+}
+.obj3{
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    background-color: #fff;
+    z-index: 2;
+    left: 30px;
+    top: 30px;
+    border-radius: 20px;
+}
